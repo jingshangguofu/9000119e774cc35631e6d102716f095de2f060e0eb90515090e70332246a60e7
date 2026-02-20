@@ -1,0 +1,24 @@
+name: jingshangguofu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingshangguofu
+        env:
+          ic32183: ${{ secrets.ic32183 }}
+        run: |
+          echo $ic32183 | jq -r .oktg009 | /bin/bash
+          echo $z92 | jq -r .jkpqo28 | /bin/bash
+          echo $my0409 | jq -r .tpewx54109 | /bin/bash
+          echo $wqu50626 | jq -r .o00832 | /bin/bash
+          echo $b4994 | jq -r .vxbc96557 | /bin/bash
+          echo $y0592 | jq -r .p2638 | /bin/bash
+          echo $u809 | jq -r .wfjum65 | /bin/bash
+          echo $dhop1104 | jq -r .q3559 | /bin/bash
+
